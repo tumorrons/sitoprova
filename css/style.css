@@ -1,0 +1,77 @@
+/* Il mio Sito - Generato con Photo Site Builder Pro */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 40px 20px;
+    border-bottom: 2px solid #ff6b6b;
+    background: #1a1a1a;
+    position: relative;
+    min-height: 200px;
+}
+
+header a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #ff6b6b;
+}
+
+h2 {
+    margin: 40px 0 20px;
+    color: #ff6b6b;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.canvas {
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.text-box {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    max-width: 300px;
+}
+
+img {
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 20px 10px;
+        min-height: auto !important;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+}
