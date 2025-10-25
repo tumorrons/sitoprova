@@ -1,5 +1,4 @@
 /* Il mio Sito - Generato con Photo Site Builder Pro */
-/* Versione corretta per GitHub Pages */
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +6,10 @@
 }
 
 body {
-    font-family: Impact, fantasy;
-    background: #fafafa !important;
-    color: #080707 !important;
+    font-family: Verdana, sans-serif;
+    background: #fafafa;
+    color: #080707;
     line-height: 1.6;
-    min-height: 100vh;
 }
 
 .container {
@@ -23,7 +21,7 @@ body {
 header {
     padding: 40px 20px;
     border-bottom: 2px solid #121212;
-    background: #fafafa !important;
+    background: #fafafa;
     position: relative;
     min-height: 200px;
 }
@@ -31,11 +29,10 @@ header {
 header a {
     text-decoration: none;
     transition: color 0.3s;
-    color: #080707;
 }
 
 header a:hover {
-    color: #121212 !important;
+    color: #121212;
 }
 
 /* Dropdown menu styles */
@@ -59,7 +56,7 @@ header a:hover {
 }
 
 .dropdown-content a {
-    color: #080707 !important;
+    color: #080707;
     padding: 12px 20px;
     text-decoration: none;
     display: block;
@@ -67,8 +64,8 @@ header a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #121212 !important;
-    color: #fafafa !important;
+    background-color: #121212;
+    color: #fafafa;
 }
 
 .dropdown:hover .dropdown-content {
@@ -80,7 +77,6 @@ header a:hover {
     padding: 5px 10px;
     display: inline-block;
     user-select: none;
-    color: #080707;
 }
 
 .dropdown > span:hover {
@@ -99,14 +95,14 @@ header a:hover {
 
 h2 {
     margin: 40px 0 20px;
-    color: #121212 !important;
+    color: #121212;
     font-size: 2em;
     font-weight: 300;
 }
 
 .canvas {
     position: relative;
-    background: rgba(255, 255, 255, 0.05) !important;
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 40px;
@@ -121,16 +117,6 @@ h2 {
 
 img {
     border-radius: 4px;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Blank mode styles */
-.blank-canvas {
-    width: 100vw;
-    min-height: 100vh;
-    position: relative;
-    background: #fafafa !important;
 }
 
 @media (max-width: 768px) {
@@ -145,9 +131,5 @@ img {
     
     h2 {
         font-size: 1.5em;
-    }
-    
-    .dropdown-content {
-        min-width: 160px;
     }
 }
